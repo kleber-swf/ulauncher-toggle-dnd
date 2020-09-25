@@ -1,0 +1,19 @@
+{
+	"required_api_version": "^2.0.0",
+	"name": "Toggle DnD",
+	"description": "Quickly toggles the 'do not disturb' mode on GNOME environments",
+	"developer_name": "Kleber Silva",
+	"icon": "images/icon.png",
+	"options": {
+		"query_debounce": 0.05
+	},
+	"preferences": [
+		{
+			"id": "toggle-dnd",
+			"type": "keyword",
+			"name": "Toggle DnD",
+			"description": "Toggle Do not Disturb mode",
+			"default_value": "dnd"
+		}
+	]
+}
